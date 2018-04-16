@@ -1,3 +1,7 @@
+Fork from https://github.com/kadirahq/react-mounter
+
+Upgraded dependencies to work with React 16, so no more warnings.
+
 # React Mounter
 
 React Mounter lets you mount React components to DOM easily.
@@ -19,16 +23,16 @@ Additionally, React Mounter can work as a simple Layout Manager where you can us
 Install with:
 
 ```
-npm i --save react-mounter react react-dom
+npm i --save react-mounter2 react react-dom
 ```
 
-> `react` and `react-dom` are peerDependencies of `react-mounter`. So, you need to install them into your app manually.
+> `react` and `react-dom` are peerDependencies of `react-mounter2`. So, you need to install them into your app manually.
 
 Then let's mount a component.
 
 ```js
 import React from 'react';
-import {mount} from 'react-mounter';
+import {mount} from 'react-mounter2';
 
 const WelcomeComponent = ({name}) => (<p>Hello, {name}</p>);
 
@@ -37,7 +41,7 @@ mount(WelcomeComponent, {name: 'Arunoda'});
 
 ## Using as a Layout Manager
 
-You can user `react-mounter` as a layout Manager for Flow Router. Here's how to do it.
+You can user `react-mounter2` as a layout Manager for Flow Router. Here's how to do it.
 
 Let's say we've a layout called MainLayout.
 

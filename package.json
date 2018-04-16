@@ -1,10 +1,10 @@
 {
-  "name": "react-mounter",
-  "version": "1.2.0",
-  "description": "React Mounter lets you mount React components to DOM easily.",
+  "name": "react-mounter2",
+  "version": "2.0.0",
+  "description": "React Mounter2 lets you mount React components to DOM easily.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadirahq/react-mounter.git"
+    "url": "https://github.com/GManzato/react-mounter"
   },
   "license": "MIT",
   "options": {
@@ -35,15 +35,15 @@
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "mock-require": "1.x.x",
-    "sinon": "1.17.x",
+    "@sinonjs/formatio": "2.0.x",
     "eslint-plugin-react": "3.x.x"
   },
   "peerDependencies": {
-    "react": "0.14.x || 15.x.x",
-    "react-dom": "0.14.x || 15.x.x"
+    "react": "16.x.x",
+    "react-dom": "16.x.x"
   },
   "dependencies": {
-    "babel-runtime": "6.x.x",
+    "@babel/runtime": "^7.0.0-beta.44",
     "domready": "1.x.x"
   }
 }
